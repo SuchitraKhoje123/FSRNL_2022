@@ -14,28 +14,39 @@
     padding: 10px;
 }
 .about{
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    
+    padding: 40px;
+    flex-direction: column;
     align-items: center;
-    padding: 60px;
     
 }
+#addAlbum{
+    padding: 10px;
+    width: 40%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
 .albums{
+   
+   
    background-color: whitesmoke; 
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   justify-content: center;
+   justify-content: space-between;
 
 }
 .album{
-    border: 3px solid lightgray;
+    border: 3px solid blue;
     width:200px;
     border-radius: 5px;
     margin: 15px;
     display:flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
+    
 }
 .album .details{
     
